@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Top Head Section Start*/
+.top-head{
+    background-color: #138f13;
+    padding: 5px 100px;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+.top-head p{
+display: inline;
+}
+.top-head a{
+    text-decoration: none;
+}
+/*Top Head Section end*/
+
+/*Header Section Start*/
+header{
+    color: #fff;
+    background-color: #1fbc1f;
+    width: 100%;    
+    height: 80px;
+    line-height: 80px;
+    padding: 0px 100px;
+}
+header h1 ,header h4{
+    display: inline;
+}
+/*Header Section End*/
