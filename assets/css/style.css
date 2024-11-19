@@ -32,3 +32,83 @@ header h1 ,header h4{
     display: inline;
 }
 /*Header Section End*/
+
+/* Nav Section Start*/
+nav{
+    background-color:#47eb47;
+    padding: 5px 100px;
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+/* Nav Section End*/
+
+/* Main Section Start*/
+.main{
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.main article{
+    padding: 20px 20px 0px 20px;
+}
+.main article a{
+    text-decoration: none;
+    color: #1fbc1f;
+}
+.main article p{
+    text-align: justify;
+    margin: 5px 0px;
+}
+.sujay{
+    margin-left: 80px;
+    border-left: 2px solid #068223;
+    padding-left: 5px;
+}
+aside{
+    background-color: silver;
+    padding: 15px 100px 50px 15px;
+}
+aside ul li{
+    list-style: none;
+   margin-left: 20px;
+}
+/* Main Section End*/
+
+/* Footer Section Start*/
+footer{
+background-color: #0a830a;
+width: 100%;
+color: #fff;
+padding: 10px 100px ;
+height: 100px;
+}
+footer .first{
+    float: left;
+    margin-right: 100px;
+}
+footer .first h4 a,footer .first h5 a{
+    text-decoration: none;
+   color: #fff;
+}
+footer .second{
+    float: left;
+}
+footer .second h4 a, footer .second h5 a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .third{
+    float: right;
+}
+/* Footer Section End*/
